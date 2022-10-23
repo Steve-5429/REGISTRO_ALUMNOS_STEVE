@@ -45,17 +45,17 @@ Public Class Class1
         cnx.Close()
         Return elim1
     End Function
-    Public Function Modificar(codigo As String, id_a As String, nombre As String, apellido As String, direccion As String, ema As String, fecha_ing As Date, regist As Char) As Integer
+    Public Function Modificar(codigo As String, id As String, nombre As String, apellido As String, direccion As String, email As String, fechaing As Date, reg As Char) As Integer
         Dim c As New SqlCommand("pb_modificar", cnx)
         c.CommandType = CommandType.StoredProcedure
         c.Parameters.AddWithValue("@codigo", codigo)
-        c.Parameters.AddWithValue("@id", id_a)
+        c.Parameters.AddWithValue("@id", id)
         c.Parameters.AddWithValue("@nombre", nombre)
         c.Parameters.AddWithValue("@apellido", apellido)
         c.Parameters.AddWithValue("@direccion", direccion)
-        c.Parameters.AddWithValue("@email", ema)
-        c.Parameters.AddWithValue("@fechaing", fecha_ing)
-        c.Parameters.AddWithValue("@reg", regist)
+        c.Parameters.AddWithValue("@email", email)
+        c.Parameters.AddWithValue("@fechaing", fechaing)
+        c.Parameters.AddWithValue("@reg", reg)
         cnx.Open()
         Dim actu1 As String = c.ExecuteNonQuery
         cnx.Close()

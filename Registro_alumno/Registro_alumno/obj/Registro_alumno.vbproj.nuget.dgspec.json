@@ -4,6 +4,21 @@
     "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\Registro_alumno\\Registro_alumno.vbproj": {}
   },
   "projects": {
+    "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\ClassLibrary1\\Conexion sql.vbproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\ClassLibrary1\\Conexion sql.vbproj",
+        "projectName": "Conexion sql",
+        "projectPath": "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\ClassLibrary1\\Conexion sql.vbproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\Registro_alumno\\Registro_alumno.vbproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\ClassLibrary1\\Conexion sql.vbproj": {
+                "projectPath": "C:\\Users\\trome\\OneDrive\\Escritorio\\Registro-alumno Steve\\Registro_alumno\\ClassLibrary1\\Conexion sql.vbproj"
+              }
+            }
           }
         },
         "warningProperties": {
