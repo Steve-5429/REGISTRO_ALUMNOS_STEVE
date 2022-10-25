@@ -3,15 +3,6 @@ Public Class Form1
 
     Dim obj As New Class1
 
-    Public Property Obj1 As Class1
-        Get
-            Return obj
-        End Get
-        Set(value As Class1)
-            obj = value
-        End Set
-    End Property
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         REM para que cargue los datos y ubique la fuente de datos 
