@@ -10,8 +10,7 @@ Option Explicit On
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-Option Strict On
-Option Explicit On
+
 
 Namespace My
 

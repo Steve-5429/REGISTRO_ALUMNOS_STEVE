@@ -46,6 +46,8 @@ Public Class Class1
         Return elim1
     End Function
     Public Function Modificar(codigo As String, id As String, nombre As String, apellido As String, direccion As String, email As String, fechaing As Date, reg As Char) As Integer
+
+        REM
         Dim c As New SqlCommand("pb_modificar", cnx)
         c.CommandType = CommandType.StoredProcedure
         c.Parameters.AddWithValue("@codigo", codigo)
